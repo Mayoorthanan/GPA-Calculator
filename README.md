@@ -1,16 +1,73 @@
-# React + Vite
+# GPA Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple GPA Calculator built with React.js that allows students to add module credits and grades, calculate GPA, delete modules, and download the GPA report as a PDF.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add module credits (1-5 credits)
+* Select grades from A+ to F
+* Calculate GPA automatically
+* Delete individual modules
+* Download GPA report as PDF
+* Responsive and easy-to-use interface
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* jsPDF
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mayoorthanan/GPA-Calculator.git
+```
+
+[View the Repository](https://github.com/Mayoorthanan/GPA-Calculator)
+
+2. Navigate to the project folder:
+
+```bash
+cd GPA-Calculator
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+## Usage
+
+1. Enter the module credit.
+2. Select the corresponding grade.
+3. Click **Add** to add the module.
+4. Repeat for all modules.
+5. Click **Calculate GPA** to calculate your GPA.
+6. Click **Download PDF** to save the GPA report.
+
+## Author
+
+**S. Mayoorthanan**
+
+GitHub: https://github.com/Mayoorthanan
+
+## License
+
+This project is licensed under the MIT License.
